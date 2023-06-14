@@ -1,6 +1,17 @@
 main {
   font-family: "Roboto", sans-serif;
 }
+.navbox {
+  display: flex; /* Display as flex container */
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center;
+}
+
+.navbox a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 16px;
+}
 
 .profilbox {
   height: 800px;
@@ -86,22 +97,4 @@ footer {
   padding: 15px;
   align-items: center;
   flex-direction: row;
-}
-
-.navbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.navbox > li {
-  list-style: none;
-  padding: 15px;
-}
-
-.navbox > li > a {
-  color: white;
-  font-size: 20px;
-  text-transform: capitalize;
 }
