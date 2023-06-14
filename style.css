@@ -2,14 +2,14 @@ main {
   font-family: "Roboto", sans-serif;
 }
 .navbox {
-  display: flex; /* Display as flex container */
-  justify-content: space-between; /* Align items horizontally */
+  display: flex; 
+  justify-content: space-between; 
   align-items: center;
 }
 
 .navbox a {
-  color: #fff; /* Link text color */
-  text-decoration: none; /* Remove underline */
+  color: #fff; 
+  text-decoration: none; 
   padding: 8px 16px;
 }
 
